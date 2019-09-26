@@ -4,3 +4,8 @@ function updatePlaylist (pl,artist,song) {
   pl[artist]=song
   return pl
 }
+
+function removeFromPlaylist(plObj,artist) {
+  delete plObj.artist
+  return plObj
+}
