@@ -1,0 +1,1 @@
+var playlist = {sublime: 'santeria', outkast: 'roses'}
